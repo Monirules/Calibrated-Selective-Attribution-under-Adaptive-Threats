@@ -1,7 +1,7 @@
 <div align="center">
 
 # 🕵️ Know When to Blame
-### Calibrated Selective Attribution for LLM Attacks
+### Calibrated Selective Attribution for LLM Forensics and the Limits of Adaptive Evasion
 
 <br>
 
@@ -17,7 +17,7 @@
 
 <br>
 
-*A calibration layer that lets an LLM attack-attribution tool say* ***"I am not sure"*** *instead of blaming the wrong source.*
+*A calibration layer that lets an LLM Forensic tool say* ***"I am not sure"*** *instead of blaming the wrong source file.*
 
 </div>
 
@@ -126,18 +126,8 @@ jupyter notebook
 
 ## 🧠 Method at a Glance
 
-```
-   Attacked LLM  ──►  Forensic tool (AttnTrace / RAGOrigin)  ──►  gap score s
-                                                                     │
-                                                        ┌────────────┴────────────┐
-                                                        │   CSA calibrated gate    │
-                                                        │   s ≥ threshold ?        │
-                                                        └────────────┬────────────┘
-                                                           yes │           │ no
-                                                               ▼           ▼
-                                                        answer (blame)   ABSTAIN
-                                                      P(wrong|answer) ≤ α/coverage
-```
+<img width="1205" height="604" alt="image" src="https://github.com/user-attachments/assets/ac32717b-4716-4be6-83da-f9534c10eeaa" />
+
 
 ---
 
@@ -147,8 +137,8 @@ If you use this work, please cite:
 
 ```bibtex
 @inproceedings{mahmud2027csa,
-  title     = {Know When to Blame: Calibrated Selective Attribution for LLM Attacks},
-  author    = {Mahmud, M. I. and others},
+  title     = {Know When to Blame: Calibrated Attribution for LLM Forensics and the Limits of Adaptive Evasion},
+  author    = {Mahmud, M. I. and Zhan, J.},
   booktitle = {Proceedings of the 2027 Conference of the North American Chapter
                of the Association for Computational Linguistics (NAACL)},
   year      = {2027},
