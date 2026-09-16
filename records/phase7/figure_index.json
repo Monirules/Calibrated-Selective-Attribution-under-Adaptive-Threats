@@ -1,0 +1,10 @@
+{
+  "p4_fig3_coverage_risk_HEADLINE.png": "Coverage-risk curve (CSA works)",
+  "p4_fig2_auroc.png": "AUROC: gap vs variance per group",
+  "p5_fig2_risk_breach.png": "GapAttack breaks the guarantee",
+  "p5_fig1_breach_curve.png": "Attack success vs budget",
+  "p6_fig1_recovery_HEADLINE.png": "V-CSA mitigates the breach",
+  "p7_fig1_transfer.png": "Threshold transfer across tools/backends",
+  "p7_fig2_false_alarm.png": "Clean-input false alarms reduced by CSA",
+  "p7_fig3_complete_arc.png": "The complete story in one figure"
+}

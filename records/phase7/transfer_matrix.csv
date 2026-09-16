@@ -1,0 +1,4 @@
+,attntrace/llama3.2-3b,attntrace/qwen2.5-3b,ragorigin/llama3.2-3b
+attntrace/llama3.2-3b,0.09917355371900827,0.1780821917808219,0.2
+attntrace/qwen2.5-3b,0.0,0.0743801652892562,0.2
+ragorigin/llama3.2-3b,0.0,0.0,0.05128205128205128

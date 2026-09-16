@@ -1,0 +1,4 @@
+tool,backend,conformal_risk@0.5cov,fixed_gap_risk@0.5cov,no_abstention_risk
+attntrace,llama3.2-3b,0.12,0.12,0.2333
+attntrace,qwen2.5-3b,0.0482,0.04,0.2
+ragorigin,llama3.2-3b,0.0,0.0,0.2

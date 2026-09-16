@@ -1,0 +1,4 @@
+tool,backend,natural_risk,natural_cov,attacked_risk,attacked_cov,bound_alpha_over_cov,breach,bound_violated
+attntrace,llama3.2-3b,0.099,0.807,0.243,0.96,0.104,0.144,True
+attntrace,qwen2.5-3b,0.074,0.807,0.211,0.947,0.106,0.137,True
+ragorigin,llama3.2-3b,0.051,0.78,0.213,0.94,0.106,0.161,True

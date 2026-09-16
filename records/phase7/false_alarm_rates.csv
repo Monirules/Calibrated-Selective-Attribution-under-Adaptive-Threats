@@ -1,0 +1,4 @@
+tool,backend,n_clean,false_alarm_no_abstention,false_alarm_with_CSA,reduction
+attntrace,llama3.2-3b,450,1.0,0.007,0.993
+attntrace,qwen2.5-3b,450,1.0,0.013,0.987
+ragorigin,llama3.2-3b,100,1.0,0.76,0.24

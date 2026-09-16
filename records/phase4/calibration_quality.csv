@@ -1,0 +1,4 @@
+tool,backend,n,accuracy,ECE,MCE,AUROC_gap,AUROC_variance
+attntrace,llama3.2-3b,300,0.777,0.3259,0.3935,0.8052,0.8351
+attntrace,qwen2.5-3b,300,0.787,0.2782,0.3047,0.8093,0.7138
+ragorigin,llama3.2-3b,100,0.82,0.2722,0.4526,0.8875,

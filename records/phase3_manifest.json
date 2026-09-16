@@ -1,0 +1,21 @@
+{
+  "created": "2026-09-07 20:46:14",
+  "source_store": "C:\\Users\\mahmu\\CSA_Project\\records\\phase1_unified_store.parquet",
+  "final_store": "C:\\Users\\mahmu\\CSA_Project\\records\\phase3_final_store.parquet",
+  "file_hash_sha256_16": "4242aced6da1a9e5",
+  "total_rows": 2700,
+  "rows_by_tool": {
+    "attntrace": 2400,
+    "ragorigin": 300
+  },
+  "rows_by_regime": {
+    "adaptive": 1050,
+    "attacked": 600,
+    "clean": 1050
+  },
+  "rows_by_backend": {
+    "llama3.2-3b": 1500,
+    "qwen2.5-3b": 1200
+  },
+  "cells_still_short": []
+}
